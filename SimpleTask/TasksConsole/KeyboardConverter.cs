@@ -40,7 +40,6 @@ namespace SimpleTask.TasksConsole
                 Console.WriteLine(new string(inputChars));
                 Console.WriteLine("================================\n");
 
-
             }
             while (true);
             

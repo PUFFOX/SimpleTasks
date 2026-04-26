@@ -17,6 +17,7 @@ namespace SimpleTask
                 Console.WriteLine("================================\n");
                 Console.WriteLine("Select a task:");
                 Console.WriteLine("1 - Translate text");
+                Console.WriteLine("2 - Sum of digits");
                 Console.WriteLine("0 - Exit");
                 Console.WriteLine("--------------------------------\n");
 
@@ -32,6 +33,9 @@ namespace SimpleTask
                         KeyboardConverter.Run();
                         break;
 
+                    case 2:
+                        SumOfDigits.Run();
+                        break;
 
 
                     default:
