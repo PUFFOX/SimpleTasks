@@ -18,6 +18,7 @@ namespace SimpleTask
                 Console.WriteLine("Select a task:");
                 Console.WriteLine("1 - Translate text");
                 Console.WriteLine("2 - Sum of digits");
+                Console.WriteLine("3 - Simple Calculator");
                 Console.WriteLine("0 - Exit");
                 Console.WriteLine("--------------------------------\n");
 
@@ -35,6 +36,10 @@ namespace SimpleTask
 
                     case 2:
                         SumOfDigits.Run();
+                        break;
+
+                    case 3:
+                        Calculator.Run();
                         break;
 
 
